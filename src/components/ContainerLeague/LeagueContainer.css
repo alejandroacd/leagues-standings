@@ -1,0 +1,50 @@
+
+.league-container {
+  flex-direction: row;
+  justify-content: space-between;
+  width:85%;
+  display: flex;
+  height: 50%;
+  align-items: center;
+  margin: 1em auto;
+  padding:1em;
+/* From https://css.glass */
+background: rgba(101, 88, 88, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.1px);
+-webkit-backdrop-filter: blur(11.1px);
+border: 1px solid rgba(101, 88, 88, 0.3);
+}
+
+.title_link {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 6em;
+  
+}
+
+.title_link h1 {
+    font-size:1em;
+    text-align: center;
+}
+
+.title_link a {
+    border-radius: 30px;
+    font-size:0.8em;
+    padding:0.7em;
+    color:var(--white);
+    font-weight: bold;
+    background: #c0392b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.league-container img {
+    width: 100px;
+    height: 100px;
+}

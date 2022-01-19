@@ -1,0 +1,48 @@
+.info-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-container h1 {
+    position:relative;
+    text-align: center;
+    margin: 1em;
+}
+
+.tabla-posiciones {
+    width: 70%;
+    margin: 0 auto;
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.tabla-posiciones p {
+    text-align: center;
+}
+
+.tabla-posiciones img {
+    width: 50px;
+    height: 50px;
+}
+
+.info-container select {
+    padding:0.5em;
+    width: 25%;
+    font-weight: bold;
+    border:1px solid #fff;
+    background-color: transparent;
+    text-align: center;
+    margin:0 auto;
+    color:var(--white);
+   
+}
+
+.info-container select option {
+    background-color: black
+}
