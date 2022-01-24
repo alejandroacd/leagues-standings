@@ -1,9 +1,8 @@
 import React from 'react'
-
 import '../src/App.css'
-import { BrowserRouter, Route, Routes,Router } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LeagueInfo from './components/LeagueInfo/LeagueInfo'
-import Main from './components/Main'
+import Main from './components/Main/Main'
 function App() {
 
 
