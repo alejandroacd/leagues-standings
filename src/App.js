@@ -1,10 +1,9 @@
 import React from 'react'
 
 import '../src/App.css'
-
 import { BrowserRouter, Route, Routes,Router } from 'react-router-dom'
 import LeagueInfo from './components/LeagueInfo/LeagueInfo'
-import Main from '../../recipes-app/src/components/Main/Main'
+import Main from '../../leagues-standings/src/components/Main/Main'
 function App() {
 
 
