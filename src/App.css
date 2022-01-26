@@ -17,7 +17,11 @@ a {
   font-family: 'Barlow', sans-serif;
 }
 
-
+.page-title {
+  text-align: center;
+  margin: 1em;
+  font-size: 1.2em;
+}
 :root {
   --black: #212121;
   --white:#EEEEEE;
@@ -37,5 +41,11 @@ a {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .page-title {
+    font-size:2em;
   }
 }

@@ -11,7 +11,7 @@ const LeagueContainer = (props) => {
           <div className="title_link">
           <h1>{props.name} </h1>
 
-          <Link to={`/leagueinfo/${props.id}`}> Ver tabla de posiciones!</Link>
+          <Link to={`/leagueinfo/${props.id}`}> See standings table!</Link>
           </div>
    
           

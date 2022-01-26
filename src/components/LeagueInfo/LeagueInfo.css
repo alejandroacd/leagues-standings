@@ -40,9 +40,31 @@
     text-align: center;
     margin:0 auto;
     color:var(--white);
+  
    
 }
 
 .info-container select option {
     background-color: black
+}
+
+.atras {
+    background-color: transparent;
+    color: white;
+    width: 30%;
+    height: auto;
+    margin-left: 1em;
+    margin-top:1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+
+}
+
+.atras svg {
+    margin-right:0.3em;
+    color:#93439F
 }

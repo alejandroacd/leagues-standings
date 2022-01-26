@@ -2,7 +2,7 @@ import React, { useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import '../LeagueInfo/LeagueInfo.css'
-
+import { IoCaretBack } from 'react-icons/io5'
 
 const LeagueInfo = (props) => {
 
@@ -11,7 +11,9 @@ const LeagueInfo = (props) => {
     const [info,setInfo] = useState([])
     const [year,setYear] = useState('2021')
 
-
+    const goBack = () => {
+        window.location = '/'
+    }
     useEffect(() => {
         axios.get(`https://api-football-standings.azharimm.site/leagues/${params.id}/standings?season=${year}&sort=asc`)
         .then(res => {
@@ -25,6 +27,7 @@ const LeagueInfo = (props) => {
 
     return (
         <div className='info-container'>
+            <button className='atras' onClick={goBack}> <IoCaretBack /> Go back </button>
             <h1> {name} </h1>
             <select 
             name="selected-year"
