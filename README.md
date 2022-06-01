@@ -11,3 +11,6 @@ Once in the project directory, run 'npm start' in the terminal. The browser will
 This app was designed for practical purposes. More specifically the use of
 Axios and dynamic rendering within React components
 
+## Demo 
+
+https://leagues-standings.netlify.app
